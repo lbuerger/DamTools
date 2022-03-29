@@ -227,11 +227,11 @@ class Automated_reservoir_estimation(object):
 
         # Just for development, set defaults for required parameters
         #param_dem.value = "C:\\Users\\leobu\\Documents\\GIS\\M.Sc.Projekt\\Daten\\dem_con\\af_con_3s_rect.tif"
-        param_dem.value = "C:\\Users\\leobu\\Documents\\GIS\\M.Sc.Projekt\\Daten\\SRTMGL3\\SRTMGL3_WORLD.tif"
-        param_dam_positions.value = "C:\\Users\\leobu\\Documents\\GIS\\M.Sc.Projekt\\v2_0\\v2_0.gdb"
-        param_output_folder.value = "C:\\Users\\leobu\\Documents\\GIS\\M.Sc.Projekt\\v2_0\\Tool_run"
-        param_river_segment.value = "C:\\Users\\leobu\\Documents\\GIS\\M.Sc.Projekt\\Daten\\RiverATLAS_v10.gdb\\RiverATLAS_v10"
-        param_basins.value ="C:\\Users\\leobu\\Documents\\GIS\M.Sc.Projekt\\Daten\\BasinATLAS_v10.gdb\\BasinATLAS_v10_lev03"
+        #param_dem.value = "C:\\Users\\leobu\\Documents\\GIS\\M.Sc.Projekt\\Daten\\SRTMGL3\\SRTMGL3_WORLD.tif"
+        #param_dam_positions.value = "C:\\Users\\leobu\\Documents\\GIS\\M.Sc.Projekt\\v2_0\\v2_0.gdb"
+        #param_output_folder.value = "C:\\Users\\leobu\\Documents\\GIS\\M.Sc.Projekt\\v2_0\\Tool_run"
+        #param_river_segment.value = "C:\\Users\\leobu\\Documents\\GIS\\M.Sc.Projekt\\Daten\\RiverATLAS_v10.gdb\\RiverATLAS_v10"
+        #param_basins.value ="C:\\Users\\leobu\\Documents\\GIS\M.Sc.Projekt\\Daten\\BasinATLAS_v10.gdb\\BasinATLAS_v10_lev03"
 
         params = [param_dam_positions, param_dem, param_river_segment, param_height_step, param_upriver_segments,
                   param_dam_id_list, param_project_name, param_output_folder,  param_basins,
