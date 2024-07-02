@@ -24,7 +24,7 @@ Tool to estimate a hydropower dam's reservoir size and shape using the dam posit
 
 The Python Parameters need to be defined *in* the Python code itself.
 They are set in the *class Automated_reservoir_estimation():* in the function *def \__init\__()* and they all start with *self.xxx*.
-Soem of the parameters need to be adjusted, when a new dam position layer is used, while the other can be left unchanged if the recommended data sources are used.
+Some of the parameters need to be adjusted, when a new dam position layer is used, while others can be left unchanged if the recommended data sources are used.
 The once that need to be changed are:
 - **self.height_field:** Needs to be set to the name of the attribute table field containing the projected dam wall heights in meters (None or Null values in the attribute table are fine here).
 - **self.cap_field:** Needs to be set to the field name of the hyopower capacity in MW.
